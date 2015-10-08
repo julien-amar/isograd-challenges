@@ -9,13 +9,12 @@ In this challenge, you need to determine if a card number is valid. A card numbe
 * the last digit is the Luhne key
 
 The Luhne key is based on the first 15 digits. One digit out of two is multiplied by 2 starting with the first one. If the result is greater than 9 then 9 is deduced from the result. This provides a new series of digits. The Luhne key is the value that needs to be added to this sum to get a number that can be divided by 10.  
-Example: 5295 4648 5201 3672   
-  
- 5 2 9 5  4 6 4 8  5 2 0 1  3 6 7  
- * * * *  * * * *  * * * *  * * *  
- 2 1 2 1  2 1 2 1  2 1 2 1  2 1 2  
- --------------------------------  
- 1 2 9 5  8 6 8 8  1 2 0 1  6 6 5  
+Example: 5295 4648 5201 3672
+
+Input  :  
+5295-4648-5201-367  
+Result :  
+1295-8688-1201-665  
   
 1 + 2 + 9 + 5 + 8 + 6 + 8 + 8 + 1 + 2 + 0 + 1 + 6 + 6 + 5 = 68  
   
