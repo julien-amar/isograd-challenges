@@ -11,7 +11,7 @@ Votre code doit renvoyer le montant restant au joueur à la fin de la partie.
 ### Entrée
 Ligne 1 : un entier entre 1 000 et 10 000 représentant la somme dont le joueur dispose au départ.  
 Ligne 2 : un entier **N** entre 10 et 45 représentant le nombre de tours joués.  
-Lignes 3 à N+2 : deux entiers positifs ou nuls séparés par un espace représentant **X** et **Y** tels que définis dans l'énoncé.  
+Lignes 3 à **N** + 2 : deux entiers positifs ou nuls séparés par un espace représentant **X** et **Y** tels que définis dans l'énoncé.  
   
 La série des mises et des montants remportés fait que le joueur ne sera jamais ruiné et aura toujours un montant restant positif ou nul.
 
