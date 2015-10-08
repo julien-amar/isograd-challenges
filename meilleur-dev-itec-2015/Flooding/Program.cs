@@ -17,7 +17,14 @@ namespace IsoGrad
 
         static bool GetPosition(int x, int y)
         {
-            return map[x * l + y];
+            try
+            {
+                return map[x * l + y];
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         static bool Process(int x, int y)
